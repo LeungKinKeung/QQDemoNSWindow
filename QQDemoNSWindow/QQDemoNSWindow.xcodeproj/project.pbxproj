@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		7F9CA5AF1D7AD2D900C7AB4E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F9CA5AE1D7AD2D900C7AB4E /* AppDelegate.m */; };
 		7F9CA5B21D7AD2D900C7AB4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F9CA5B11D7AD2D900C7AB4E /* main.m */; };
-		7F9CA5B71D7AD2D900C7AB4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F9CA5B61D7AD2D900C7AB4E /* Assets.xcassets */; };
 		7F9CA5BA1D7AD2D900C7AB4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F9CA5B81D7AD2D900C7AB4E /* Main.storyboard */; };
 		7F9CA5C51D7AD2D900C7AB4E /* QQDemoNSWindowUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F9CA5C41D7AD2D900C7AB4E /* QQDemoNSWindowUITests.m */; };
 		7F9CA5DD1D7AD32A00C7AB4E /* LKKChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F9CA5D11D7AD32A00C7AB4E /* LKKChatViewController.m */; };
@@ -18,6 +17,7 @@
 		7F9CA5E01D7AD32A00C7AB4E /* LKKLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F9CA5D81D7AD32A00C7AB4E /* LKKLoginViewController.m */; };
 		7F9CA5E11D7AD32A00C7AB4E /* LKKLoginWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F9CA5DA1D7AD32A00C7AB4E /* LKKLoginWindow.m */; };
 		7F9CA5E21D7AD32A00C7AB4E /* LKKLoginWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F9CA5DC1D7AD32A00C7AB4E /* LKKLoginWindowController.m */; };
+		7F9CADA61D7AD6E100C7AB4E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F9CADA51D7AD6E100C7AB4E /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +35,6 @@
 		7F9CA5AD1D7AD2D900C7AB4E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7F9CA5AE1D7AD2D900C7AB4E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		7F9CA5B11D7AD2D900C7AB4E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7F9CA5B61D7AD2D900C7AB4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F9CA5B91D7AD2D900C7AB4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7F9CA5BB1D7AD2D900C7AB4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7F9CA5C01D7AD2D900C7AB4E /* QQDemoNSWindowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QQDemoNSWindowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +52,7 @@
 		7F9CA5DA1D7AD32A00C7AB4E /* LKKLoginWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKKLoginWindow.m; sourceTree = "<group>"; };
 		7F9CA5DB1D7AD32A00C7AB4E /* LKKLoginWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKKLoginWindowController.h; sourceTree = "<group>"; };
 		7F9CA5DC1D7AD32A00C7AB4E /* LKKLoginWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKKLoginWindowController.m; sourceTree = "<group>"; };
+		7F9CADA51D7AD6E100C7AB4E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,9 +98,9 @@
 				7F9CA5D61D7AD32A00C7AB4E /* Login */,
 				7F9CA5AD1D7AD2D900C7AB4E /* AppDelegate.h */,
 				7F9CA5AE1D7AD2D900C7AB4E /* AppDelegate.m */,
-				7F9CA5B61D7AD2D900C7AB4E /* Assets.xcassets */,
 				7F9CA5B81D7AD2D900C7AB4E /* Main.storyboard */,
 				7F9CA5BB1D7AD2D900C7AB4E /* Info.plist */,
+				7F9CADA51D7AD6E100C7AB4E /* Images.xcassets */,
 				7F9CA5B01D7AD2D900C7AB4E /* Supporting Files */,
 			);
 			path = QQDemoNSWindow;
@@ -229,8 +229,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F9CA5B71D7AD2D900C7AB4E /* Assets.xcassets in Resources */,
 				7F9CA5BA1D7AD2D900C7AB4E /* Main.storyboard in Resources */,
+				7F9CADA61D7AD6E100C7AB4E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +439,7 @@
 				7F9CA5CB1D7AD2D900C7AB4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7F9CA5CC1D7AD2D900C7AB4E /* Build configuration list for PBXNativeTarget "QQDemoNSWindowUITests" */ = {
 			isa = XCConfigurationList;
@@ -447,6 +448,7 @@
 				7F9CA5CE1D7AD2D900C7AB4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

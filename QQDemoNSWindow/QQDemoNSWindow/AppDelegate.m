@@ -21,5 +21,11 @@
 - (void)applicationWillTerminate:(NSNotification *)aNotification {
     // Insert code here to tear down your application
 }
+- (IBAction)newApplication:(NSMenuItem *)sender {
+    NSString *executablePath = [[NSBundle mainBundle] executablePath];
+    NSTask *task    = [[NSTask alloc] init];
+    task.launchPath = executablePath;
+    [task launch];
+}
 
 @end
